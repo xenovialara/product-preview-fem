@@ -1,0 +1,73 @@
+:root {
+  --Darkcyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Verydarkblue: hsl(212, 21%, 14%);
+  --DarkGrayishblue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+img {
+  float: left;
+  width: 50%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Cream);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#text {
+  background-color: var(--White);
+  width: fit-content;
+  font-family: "Fraunces", serif;
+}
+
+h2 {
+  color: var(--Darkcyan);
+}
+
+span {
+  font-size: 13px;
+  color: gray;
+  text-decoration: line-through;
+}
+
+#perf {
+  letter-spacing: 3px;
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+}
+
+#context {
+  color: gray;
+}
+
+button {
+  border-radius: 12px;
+  background-color: var(--Darkcyan);
+  color: var(--White);
+  border: none;
+  width: 40%;
+  cursor: pointer;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#cart {
+  height: 20px;
+  width: 12%;
+  object-fit: contain;
+  align-items: right;
+}
+
+#logo {
+  font-family: "Montserrat", sans-serif;
+}
